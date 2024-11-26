@@ -19,8 +19,8 @@ body{
 .menu2{
     color: white;
     float: right;
-    display: inline;
-    font-size: 20px;
+    position: relative;
+  
 }
 
 .menu button{
@@ -39,11 +39,15 @@ body{
 
 
 .menu-s{
-    display: inline;
     font-size: 20px;
     float: right;
     text-decoration: none;
-    margin-top: 1.4%;
+    left: 0;
+    z-index: 1000; 
+    font-size: 20px; /* Posiciona o menu em relação ao pai */
+    top: 100%;
+    background-color: #951abe;
+
  }
 
 .menu-s ul,
@@ -56,7 +60,7 @@ body{
 }
 
 .menu-s li{
-    float: left;
+    text-align: center ;
     margin-right: 10px;
     cursor: pointer;
     font-size: 20px;
@@ -107,6 +111,7 @@ body{
 .pesquisar input{
     width: 170%;
     border-radius: 5px;
+    border: none;
 }
 
 /*estilização do perfil*/
@@ -118,8 +123,8 @@ body{
 }
 
 .iconperfil{
-    max-height: 9vh;
-    border-radius: 5vh;
+    height: 4.5vw;
+    border-radius:  50%;
     
 }
 
@@ -127,27 +132,28 @@ body{
 
 .banner{
     cursor: pointer;
-    margin-left: 10%;
+    margin-left: 12.5%;
     margin-top: 4%;
     height: 205px;
-    width: 80%;
+    width: 75%;
     border-radius: 10px;
     background-image: url(../img/o.png);
     background-size: 100%;
     color: white;
+    position:  relative;
 }
 
 .banner h2{
-    margin-left: 15%;
+    margin-left: 12.5%;
     padding-top: 4%;
     font-size: 40px;
+    width: 50%;
 }
 
 .banner img{
-    width: 250px;
+    width: 240px;
     float: right;
     margin-top: -4.1%;
-    position: sticky;
     margin-right: 10%;
 }
 
