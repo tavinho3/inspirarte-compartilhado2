@@ -1,0 +1,77 @@
+/*Estilização body*/
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image:url(../img/fundo5edefinitivo.png); 
+    background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login {
+    background-color: rgb(204, 204, 204);
+    width: 20%;
+    margin: 50px auto;
+    padding: 3%;
+    border-radius: 10px;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.email1{
+    width: 95%;
+}
+
+.senha1{
+    width: 95%;
+}
+
+span{
+    margin-left: 22px;
+}
+
+#recuperar-senha{
+    color: dodgerblue !important;
+    position: relative;
+    left: -28px;
+}
+
+h1{
+    color: black;
+    margin-left: 32.5%;
+}
+
+.Email{
+    background-color: #fc933d;
+    margin-left: 25%;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.Email:hover{
+    background-color: #fc811d;
+    transform: scale(95%);
+    cursor: pointer;
+}
+
+.esqueceu-senha {
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#recuperar-senha {
+    text-decoration: none;
+    color: #666;
+}
+
+#recuperar-senha:hover {
+    color: #333;
+}
+
+#erro {
+    color: red;
+    font-size: 12px;
+    margin-left: 22.5%;
+}

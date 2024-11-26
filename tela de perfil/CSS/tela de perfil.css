@@ -1,0 +1,333 @@
+/*Estilização do body*/
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+/*Estilização navbar*/
+.top{
+    width: 100%;
+    height: 75px;
+    background-image: url(../IMG/o.png);
+    background-size: 100%;
+    color: white;
+    box-shadow: 0px 1px 10px #951abe ;
+}
+
+.menu2{
+    color: white;
+    float: right;
+    display: inline;
+    font-size: 20px;
+}
+
+.menu button{
+    margin-top: 1.6%;
+    background-color: #951abe;
+    float: right;
+    color: white;
+    font-size: 20px;
+    margin-right: 4%;
+}
+
+.hidden{
+    display: none;
+}
+
+
+.menu-s{
+    display: inline;
+    font-size: 20px;
+    float: right;
+    text-decoration: none;
+    margin-top: 1.4%;
+ }
+
+.menu-s ul,
+.menu-s li{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+    
+}
+
+.menu-s li{
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.menu-s li:hover{
+    background-color: rgb(92, 15, 92);
+    border: solid white 1px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.menu-s a{
+    text-decoration: none;
+    color: white;
+}
+
+/*estilização do perfil*/
+
+.perfil{
+    float: right;
+    margin-top: 0.5%;
+    margin-right: 1.5%;
+}
+
+.iconperfil{
+    max-height: 9vh;
+    border-radius: 5vh;
+    
+}
+
+
+.sobrenos{
+    margin-left: 12.5%;
+}
+
+/*Estilização logo*/
+
+.logo{
+    float: left;
+    margin-left: 60px;
+    height: 60px;
+}
+
+.logo h2{
+    float: left;
+    color: #feae13;
+
+}
+
+.logo img{
+    height: 60px;
+    width: auto;
+    margin-right: 5px;
+}
+
+/*Estilização pesquisar*/
+
+.pesquisar{
+    float: left;
+    margin-left: 80px;
+    border-radius: 5px;
+    margin-top: 2.1%;
+}
+
+.pesquisar input{
+    width: 170%;
+    border-radius: 5px;
+}
+
+/*estilização perfil*/
+
+.foto img{
+    width: 150px;
+    height: 150px;
+}
+
+.caixaexterna{
+    margin-top: 5%;
+    margin-left: 5%;
+  
+}
+
+.infoperfil{
+    background-color: rgb(226, 223, 223);
+    height: 700px;
+    width: 85%;
+    margin-left: 5%;
+    padding-top: 3%;
+    border-radius: 20px;
+}
+
+.foto{
+    float: left;
+    margin-left: 5%;
+}
+
+.nome{
+   margin-left: 6%;
+   margin-top: 2.5%;
+   font-size: 40px;
+   border-bottom: 1px solid rgb(155, 153, 153);
+   float: left;
+}
+
+.infos{
+    float: left;
+    margin-top: 7%;
+    margin-left: -36%;
+    color:  blue;
+    display: block;
+    width: 30%;
+    
+}
+
+.infos a{
+    text-decoration: none;
+    color:  blue;
+}
+
+.botao{
+    float: right;
+    margin-top: 2%;
+    margin-right: 10%;
+    font-size: 30px;
+    background-color: #fc933d;
+    padding: 1%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.historico {
+    margin-top: 20%;
+    background-image: url(../IMG/o.png);
+    color: white;
+    padding-left: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
+    border-radius: 10px;
+}
+
+.historico h2{
+    float: left;
+    font-size: 35px;
+}
+
+.img1{
+    margin-left: 10%;
+    height: 100px;
+    width: 100px;
+    margin-right: 3%;
+}
+
+.img2{
+    height: 100px;
+    width: 100px;
+    margin-right: 3%;
+}
+
+.seta{
+    width: 50px;
+    height: 50px;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+
+.favoritos {
+    margin-top: 5%;
+    background-image: url(../IMG/o.png);
+    color: white;
+    padding-left: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
+    border-radius: 10px;
+}
+
+.favoritos h2{
+    float: left;
+    font-size: 35px;
+}
+
+.img1{
+    margin-left: 10%;
+    height: 100px;
+    width: 100px;
+    margin-right: 3%;
+}
+
+.img2{
+    height: 100px;
+    width: 100px;
+    margin-right: 3%;
+}
+
+
+.postagens {
+    margin-top: 5%;
+    background-image: url(../IMG/o.png);
+    color: white;
+    padding-left: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
+    border-radius: 10px;
+}
+
+.postagens h2{
+    float: left;
+    font-size: 35px;
+}
+
+
+.img3{
+    margin-left: 7%;
+    height: 100px;
+    width: 100px;
+    margin-right: 3%;
+}
+
+.img4{
+    height: 100px;
+    width: 100px;
+    margin-right: 3%;
+}
+
+.footer{
+    margin-top: 6%;
+    float: left;
+    height: 200px;
+    width: 100%;
+    background-image: url(../IMG/WhatsApp\ Image\ 2024-11-21\ at\ 19.30.45.jpeg);
+    font-size: 20px;
+    background-size: 120%;
+    box-shadow: 0px 1px 10px #951abe;
+}
+
+.imgf{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-left: 10%;
+}
+
+.logo1{
+    height: 60px;
+    width: 60px;
+    float: right;
+    margin-top: 20%;
+    
+}
+
+.logos{
+    margin-right: 5%;
+    float: right;
+    margin-top: 4%;
+    align-items: start;
+    
+}
+
+.contato{
+    float: right;
+    margin-right: 10%;
+    color: white;
+    margin-bottom:-2% ;
+    text-align: end;
+
+}
+
+.imgw{
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin-right: 20%;
+}
