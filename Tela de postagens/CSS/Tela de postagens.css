@@ -222,10 +222,10 @@ body{
 }
 
 .his3 img{
-    margin-top: 5px;
+    margin-top: -2%;
     margin-left: 25px;
-    height: 220px;
-    width: 220px;
+    height: auto;
+    width: 17vw;
 }
 
 .his3 h2{
